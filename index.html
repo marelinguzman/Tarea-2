@@ -5,28 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parqueo</title>
-
     <!-- ARchivos de CSS -->
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./contenido.css">
     <link rel="stylesheet" href="./config.css">
-
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <main class="software-parqueo">
-        <header class="header"></header>
-        <section class="contenido"></section>
-        <footer class="footer"></footer>
+        <header class="header">
+            <div class="logotipo">
+                <img src="./img/Logo_Parqueo.jpg">
+                <h2>Parqueo La Colina</h2>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li>Buces | 🚌</li>
+                    <li>Camionetas | 🛻</li>
+                    <li>Carros | 🚗</li>
+                    <li>Motos | 🛵</li>
+                    <li>Otros | 🛴</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contenido">
+            <div class="caja-img">
+                <h3>Bus y transporte pesado</h3>
+                <h3>
+                <span>🚌</span>
+                </h3>
+            </div>
+            <form class="form-entrada">
+                <span>Información del veículo</span>
+                <input type="num" class="placa" value="C- ">
+                <input type="time" class="tiempo-entrada">
+                <textarea class="comentario-entrada" placeholder="Iregualariadad en el carro"></textarea>
+                <button>Ingresar</button>
+            </form>
+        </section>
+        <footer class="footer">
+            <div class="nodo-footer">
+                <span>@mcguzman</span>
+                <a href="https://github.com/marelinguzman" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+                    </a>
+                </div>
+        </footer>
     </main>
-
     <!-- Archivos de los módulos -->
     <script src="./header.js"></script>
     <script src="./contenido.js"></script>
